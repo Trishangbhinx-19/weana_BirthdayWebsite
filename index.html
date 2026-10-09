@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Weanna 🖤</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+  <div class="sheen" aria-hidden="true"></div>
+  <div class="starfield" id="starfield" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div id="particles"></div>
+  <div class="noise"></div>
+
+  <main>
+    <!-- OPENING -->
+    <section class="hero" id="home">
+      <div class="hero-card">
+        <p class="eyebrow">A little something from me Trishangbhinx🖤</p>
+        <h1>Hi, <span>Weanna.</span></h1>
+        <p class="hero-text">I made a tiny corner of the internet just for you.</p>
+        <button class="glow-btn" id="openBtn">Open your surprise 🎁</button>
+       
+      </div>
+    </section>
+
+    <!-- BIRTHDAY -->
+    <section class="content-section hidden" id="birthday">
+      <div class="section-inner">
+        <p class="eyebrow">October 13 • Your day</p>
+        <h2>Happy Birthday,<br><span>Weanna! 🎂</span></h2>
+        <p class="lead">
+          To one of the people who somehow makes ordinary days funnier,
+          louder, weirder, and a whole lot more memorable, FRICHWEANNA TUMULAK a.k.a the best girl there is.
+        </p>
+
+<div class="cake-wrap">
+            <div class="cake">
+              <div class="flame"></div>
+              <div class="candle"></div>
+              <div class="cake-top"></div>
+              <div class="cake-body"></div>
+              <div class="cake-plate"></div>
+            </div>
+            <p>Make a wish, birthday girl. ✨</p>
+          </div>
+
+          <div class="besties-wrap">
+            <svg class="besties" viewBox="0 0 340 250" role="img" aria-label="Two cartoon besties waving with floating hearts">
+              <defs>
+                <linearGradient id="gradL" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#b56cff"/>
+                  <stop offset="1" stop-color="#5c34b8"/>
+                </linearGradient>
+                <linearGradient id="gradR" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#ff7ab8"/>
+                  <stop offset="1" stop-color="#e13a88"/>
+                </linearGradient>
+                <linearGradient id="gradHp" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#ff9de2"/>
+                  <stop offset="1" stop-color="#ff4fa3"/>
+                </linearGradient>
+                <linearGradient id="gradHs" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#d8b8ff"/>
+                  <stop offset="1" stop-color="#7048d8"/>
+                </linearGradient>
+              </defs>
+
+              <ellipse class="ground" cx="170" cy="236" rx="136" ry="9"></ellipse>
+
+              <!-- Left bestie -->
+              <g class="bestie bestie-l">
+                <circle cx="90" cy="98" r="38" fill="#241b2e"></circle>
+                <circle cx="88" cy="72" r="15" fill="#241b2e"></circle>
+                <circle cx="90" cy="106" r="32" fill="#ffd9c0"></circle>
+                <ellipse cx="90" cy="84" rx="32" ry="15" fill="#241b2e"></ellipse>
+                <circle cx="79" cy="107" r="3.1" fill="#1d1420"></circle>
+                <circle cx="101" cy="107" r="3.1" fill="#1d1420"></circle>
+                <path d="M84 119 Q90 124 96 119" stroke="#1d1420" stroke-width="2.2" fill="none" stroke-linecap="round"></path>
+                <ellipse cx="72" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+                <ellipse cx="108" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+                <path d="M64 138 L116 138 L121 178 Q90 192 59 178 Z" fill="url(#gradL)"></path>
+                <rect x="64" y="138" width="52" height="8" rx="4" fill="#c98bff" opacity=".55"></rect>
+                <circle cx="66" cy="142" r="8" fill="#9b5cff"></circle>
+                <g class="arm">
+                  <rect x="47" y="126" width="11" height="30" rx="5.5" fill="#ffd9c0"></rect>
+                </g>
+                <circle cx="114" cy="142" r="8" fill="#9b5cff"></circle>
+                <rect x="112" y="138" width="26" height="10" rx="5" fill="#ffd9c0"></rect>
+              </g>
+
+              <!-- Right bestie -->
+              <g class="bestie bestie-r">
+                <circle cx="250" cy="98" r="38" fill="#301f38"></circle>
+                <circle cx="284" cy="84" r="12" fill="#301f38"></circle>
+                <circle cx="250" cy="106" r="32" fill="#ffd9c0"></circle>
+                <ellipse cx="250" cy="84" rx="32" ry="15" fill="#301f38"></ellipse>
+                <circle cx="239" cy="107" r="3.1" fill="#1d1420"></circle>
+                <circle cx="261" cy="107" r="3.1" fill="#1d1420"></circle>
+                <path d="M244 119 Q250 124 256 119" stroke="#1d1420" stroke-width="2.2" fill="none" stroke-linecap="round"></path>
+                <ellipse cx="232" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+                <ellipse cx="268" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+                <path d="M224 138 L276 138 L281 178 Q250 192 219 178 Z" fill="url(#gradR)"></path>
+                <rect x="224" y="138" width="52" height="8" rx="4" fill="#ff8fc2" opacity=".55"></rect>
+                <circle cx="206" cy="142" r="8" fill="#e13a88"></circle>
+                <rect x="202" y="138" width="26" height="10" rx="5" fill="#ffd9c0"></rect>
+                <circle cx="284" cy="142" r="8" fill="#e13a88"></circle>
+                <g class="arm arm-alt">
+                  <rect x="282" y="126" width="11" height="30" rx="5.5" fill="#ffd9c0"></rect>
+                </g>
+              </g>
+
+              <!-- Floating hearts -->
+              <g transform="translate(156 80) scale(1.5)">
+                <g class="hearthold">
+                  <path d="M12 21.5 C12 21.5 2 14.2 2 8.3 C2 4.6 4.6 2.5 7.2 2.5 C9.3 2.5 11 3.9 12 5.6 C13 3.9 14.7 2.5 16.8 2.5 C19.4 2.5 22 4.6 22 8.3 C22 14.2 12 21.5 12 21.5 Z" fill="url(#gradHp)"></path>
+                </g>
+              </g>
+              <g transform="translate(112 110) scale(1.15)">
+                <g class="hearthold hh2">
+                  <path d="M12 21.5 C12 21.5 2 14.2 2 8.3 C2 4.6 4.6 2.5 7.2 2.5 C9.3 2.5 11 3.9 12 5.6 C13 3.9 14.7 2.5 16.8 2.5 C19.4 2.5 22 4.6 22 8.3 C22 14.2 12 21.5 12 21.5 Z" fill="url(#gradHs)"></path>
+                </g>
+              </g>
+              <g transform="translate(216 108) scale(1.15)">
+                <g class="hearthold hh3">
+                  <path d="M12 21.5 C12 21.5 2 14.2 2 8.3 C2 4.6 4.6 2.5 7.2 2.5 C9.3 2.5 11 3.9 12 5.6 C13 3.9 14.7 2.5 16.8 2.5 C19.4 2.5 22 4.6 22 8.3 C22 14.2 12 21.5 12 21.5 Z" fill="url(#gradHs)"></path>
+                </g>
+              </g>
+
+              <!-- Sparkles -->
+              <g transform="translate(58 78)"><path class="twinkle" d="M0 -6 L1.6 -1.6 L6 0 L1.6 1.6 L0 6 L-1.6 1.6 L-6 0 L-1.6 -1.6 Z" fill="#d8b8ff"></path></g>
+              <g transform="translate(172 52)"><path class="twinkle t2" d="M0 -6 L1.6 -1.6 L6 0 L1.6 1.6 L0 6 L-1.6 1.6 L-6 0 L-1.6 -1.6 Z" fill="#ff9de2"></path></g>
+              <g transform="translate(292 74)"><path class="twinkle t3" d="M0 -6 L1.6 -1.6 L6 0 L1.6 1.6 L0 6 L-1.6 1.6 L-6 0 L-1.6 -1.6 Z" fill="#d8b8ff"></path></g>
+            </svg>
+          </div>
+
+          <div class="gifts-wrap">
+            <p class="eyebrow">A few little gifts</p>
+            <h3 class="block-title">Tap a box to open it 🎁</h3>
+            <div class="gifts">
+              <button class="gift-box reveal-item" type="button" aria-expanded="false">
+                <span class="gift-icon">🎁</span>
+                <span class="gift-hint">Gift #1</span>
+                <span class="gift-note">A coupon for one unlimited emote session — valid anytime, walay expiry. 🎟️</span>
+              </button>
+              <button class="gift-box reveal-item" type="button" aria-expanded="false">
+                <span class="gift-icon">🎁</span>
+                <span class="gift-hint">Gift #2</span>
+                <span class="gift-note">Free pass to cancel plans last minute, walay guilt. Use responsibly HAHAHA. 😌</span>
+              </button>
+              <button class="gift-box reveal-item" type="button" aria-expanded="false">
+                <span class="gift-icon">🎁</span>
+                <span class="gift-hint">Gift #3</span>
+                <span class="gift-note">One free vibe check whenever you feel ugly. Spoiler: never jud ka ana. 💅</span>
+              </button>
+              <button class="gift-box reveal-item" type="button" aria-expanded="false">
+                <span class="gift-icon">🎁</span>
+                <span class="gift-hint">Gift #4</span>
+                <span class="gift-note">A lifetime supply of "naa rako permi" — walay conditions, walay catch. 🫶</span>
+              </button>
+              <button class="gift-box reveal-item" type="button" aria-expanded="false">
+                <span class="gift-icon">🎁</span>
+                <span class="gift-hint">Gift #5</span>
+                <span class="gift-note">Permission to be as OA as you want. I will match your energy, always. 🎭</span>
+              </button>
+              <button class="gift-box reveal-item" type="button" aria-expanded="false">
+                <span class="gift-icon">🎁</span>
+                <span class="gift-hint">Gift #6</span>
+                <span class="gift-note">Im always here weanna ha, Im 1 call away. 🖤</span>
+              </button>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- CHAOS -->
+    <section class="content-section hidden" id="chaos">
+      <div class="section-inner">
+        <p class="eyebrow">Our friendship, basically</p>
+        <h2>100% <span>Chaotic & OA.</span></h2>
+        <div class="cards">
+          <article class="mini-card reveal-item">
+            <div class="icon">😂</div>
+            <h3>Random laughs</h3>
+            <p>Isa ray mahinumdoman nako ani, kanang mokalit ra ta og katawa bisan way rason, rag mga tala HAHAHAHAHAHA</p>
+          </article>
+          <article class="mini-card reveal-item">
+            <div class="icon">🤨</div>
+            <h3>Questionable decisions</h3>
+            <p>Usahay mag plano og laag then last minute ma postpone, kapoy mn jud pod weana nuh HAHAHAHAHA. Busy namn pod ka sa bb boy nimo, napabayaan mo na ako HUHUHUH</p>
+          </article>
+          <article class="mini-card reveal-item">
+            <div class="icon">🖤</div>
+            <h3>Still here</h3>
+            <p>Through the nonsense, stress, drama especially ko(ga emote emote bisan way uyab), and random moments — still besties since GRADE 7 yohooooo.</p>
+          </article>
+        </div>
+
+        <div class="wrapped">
+          <p class="eyebrow">Our friendship, wrapped 📊</p>
+          <div class="stats">
+            <div class="stat reveal-item"><span class="stat-num" data-count="3000" data-suffix="+">0</span><span class="stat-label">hours of calls</span></div>
+            <div class="stat reveal-item"><span class="stat-num" data-count="9">0</span><span class="stat-label">years as besties</span></div>
+            <div class="stat reveal-item"><span class="stat-num" data-count="500" data-suffix="+">0</span><span class="stat-label">inside jokes</span></div>
+            <div class="stat reveal-item"><span class="stat-num" data-count="1M charrr">0</span><span class="stat-label">postponed laags</span></div>
+            <div class="stat reveal-item"><span class="stat-num" data-count="100" data-suffix="%">0</span><span class="stat-label">chaotic energy</span></div>
+            <div class="stat reveal-item"><span class="stat-num" data-count="1">0</span><span class="stat-label">shared brain cell</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="content-section hidden" id="memories">
+      <div class="section-inner">
+        <p class="eyebrow">Memory lane</p>
+        <h2>Our little <span>archive.</span></h2>
+        <p class="lead">Atong mga Dagway HUHUHUH</p>
+
+        <div class="gallery">
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us1.jpg" alt="Memory 1">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">Day 1 of the chaos</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us2.jpg" alt="Memory 2">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">Besties since Grade 7</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us3.jpg" alt="Memory 3">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">That one random laag</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us4.jpg" alt="Memory 4">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">Unfiltered & unbothered</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us5.jpg" alt="Memory 5">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">The "we were just passing by" era</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us6.jpg" alt="Memory 6">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">When we couldn't stop laughing</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us7.jpg" alt="Memory 7">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">Vibe check: passed</span>
+          </label>
+          <label class="photo-slot has-photo reveal-item">
+            <input type="file" accept="image/*" onchange="previewPhoto(event, this)">
+            <img src="images/us8.jpg" alt="Memory 8">
+            <span>＋ Add photo</span>
+            <span class="photo-caption">Still us, always</span>
+          </label>
+        </div>
+        <p class="note"><i>Disclaimer:</i> Wa na jud koy laing pictures — pero kini ra man ang kinahanglan, pretty kaayo ta ani. 📸 <b>images</b> folder.</p>
+
+        <div class="memory-jar reveal-item">
+          <p class="eyebrow">A pocket full of memories 🫙</p>
+          <button class="jar-btn" id="jarBtn" type="button" aria-label="Pull out a random memory">
+            <span class="jar-glow" aria-hidden="true"></span>
+            <span class="jar-lid" aria-hidden="true"></span>
+            <span class="jar-glass" aria-hidden="true">
+              <span class="jar-star j1">✦</span>
+              <span class="jar-star j2">♥</span>
+              <span class="jar-star j3">★</span>
+              <span class="jar-star j4">✧</span>
+            </span>
+          </button>
+          <p class="jar-hint">Tap the jar to pull a random memory</p>
+          <p class="jar-memory" id="jarMemory" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LETTER -->
+    <section class="content-section hidden" id="letter">
+      <div class="section-inner letter-section">
+        <p class="eyebrow">From Shang, with love</p>
+        <div class="letter reveal-item">
+          <h2>Dear Weanna,</h2>
+          <p>
+            Happy birthday Weannaaaa!So, rn it's August 22, 2026
+            and naghinayhinay nako og gama ani kay nabalaka ko nga basin ma busy ko this next month kay busy kaayo sa school. So, I
+            decided nga to make this earlier kay basin makalimot ko kaybaw naka nako guwangerns na HAHAHAHA. Bitaw I hope you like it
+            and appreciate the effort I put into making this website(wow english HAHAHAHA).Mas chuyy mn jud basta English.
+          </p>
+          <p>
+            Thank you for all the laughs, random conversations, unforgettable
+            moments, and for being someone I can be completely myself around. Sa mga emote emote nako naa ka permi,
+            bisan guro og gikapoy naka nako pero bawal ka kapoyon kay miga ultra super duper max nata, anad namn guro ka HAHAHA.
+            I hope this new chapter brings you more happiness, more memories,
+            and everything you've been wishing for WEANNA.
+          </p>
+          <p>
+            So karon is 9/11/2026, ga edit ko kay dili mn kaayo ko busy na. Sorry jud kaayo weanna kay sa times nga need nimo og ka istorya kay wala ko ana 
+            nga time especially tong namatay imong tita, ganahan mn jud unta o muanha pero busy jud ko kaayo. y deepest apology jud kaayo weana kung wala ko ana 
+            nga time pero kaybaw mn ko nga nakasabot raka. I hope nga permi rako naa ha if ever naa kay ika rant even though tagsa nalang ta mag chika kay busy 
+            naka sa bb boy nimo HUHUHUH charrrr. Bitaw weanna, sorry sa mga pagkulang nako, promise mobawi ko.
+          </p>
+          <p>
+            Keep being the amazing, funny, slightly chaotic and introverted Weanna that I know.
+            And whatever happens, remember that naa rako permi always
+            somewhere cheering for you. I hope maabot nato atong mga dreams para dili ra talibon or Trinidad atong laagan. 🫶
+          </p>
+          <P>
+            Hi weana so its 10/09/26, ga edit ko ron kay para ma finalize na, wala nako ga edit anang uban kay wa ko ga expect nga magbuwag diay 
+            mos bb boy nimo, na mention raba nako anha HAHAHAHA, atleast naay rmembrance eme HAHAHAHAHAHA. Bitaw weana, hapit na imong bday, guwang naka. 
+            Remember ha, di sa ta mag uyab-uyab kay sakit sakit rana. Kwarta sa atong hunaon hunaon rn kay mag rich titta ta if di makapasar atong pagka
+            lovergirl HAHAHAH. Again HAPPY BIRTHDAY WEANAAAA.
+          </P>
+          <p class="signature">— Shang 🖤</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPEN WHEN -->
+    <section class="content-section hidden" id="openwhen">
+      <div class="section-inner">
+        <p class="eyebrow">For whenever you need me</p>
+        <h2>Open <span>when…</span> 💌</h2>
+        <p class="lead">Tap a card whenever the mood hits. Keep them for a rainy day.</p>
+
+        <div class="open-cards">
+          <button class="open-card reveal-item" type="button" aria-expanded="false">
+            <span class="open-card-inner">
+              <span class="open-card-face open-card-front">
+                <span class="oc-emoji">🥺</span>
+                <span class="oc-title">Open when you're sad</span>
+              </span>
+              <span class="open-card-face open-card-back">
+                <span class="oc-note">If feel nimo sad ka, huna hunaa nga sad pod ko. Oh diba duha nata HAHAHAHA 🖤</span>
+              </span>
+            </span>
+          </button>
+          <button class="open-card reveal-item" type="button" aria-expanded="false">
+            <span class="open-card-inner">
+              <span class="open-card-face open-card-front">
+                <span class="oc-emoji">😫</span>
+                <span class="oc-title">Open when school is stressing you</span>
+              </span>
+              <span class="open-card-face open-card-back">
+                <span class="oc-note">One requirement at a time, weanna ha. You've survived worse and still came out on top. Kaya na nimo — and if dili, naa ko diri ready mo suroy-suroy as long as naa ra sa Trinidad kay di sugtan og layo HAHAHA. 📚</span>
+              </span>
+            </span>
+          </button>
+          <button class="open-card reveal-item" type="button" aria-expanded="false">
+            <span class="open-card-inner">
+              <span class="open-card-face open-card-front">
+                <span class="oc-emoji">🌙</span>
+                <span class="oc-title">Open when you can't sleep</span>
+              </span>
+              <span class="open-card-face open-card-back">
+                <span class="oc-note">Naa koy i recommend nga song para makatug ka, close your eyes, and listen this song "All I Need To Hear" by The 1975. Sure ko makatug ka ana nga dang relapse HAHAHAHA.</span>
+              </span>
+            </span>
+          </button>
+          <button class="open-card reveal-item" type="button" aria-expanded="false">
+            <span class="open-card-inner">
+              <span class="open-card-face open-card-front">
+                <span class="oc-emoji">🤣</span>
+                <span class="oc-title">Open when you need a laugh</span>
+              </span>
+              <span class="open-card-face open-card-back">
+                <span class="oc-note">Remember when we planned a whole laag and ended up nag delay in last minute HUHUHUHUHUHU.</span>
+              </span>
+            </span>
+          </button>
+          <button class="open-card reveal-item" type="button" aria-expanded="false">
+            <span class="open-card-inner">
+              <span class="open-card-face open-card-front">
+                <span class="oc-emoji">🥰</span>
+                <span class="oc-title">Open kung gimingaw kas ex nimo HAHAHAHHA</span>
+              </span>
+              <span class="open-card-face open-card-back">
+                <span class="oc-note">Uyyyyyy gi open niya HAHAHAHAH. Kalimte nato weanaaaaa, usad na ta ha. Birthday nimo rn, aysa tog huna hunaa, daghang pang ikal
+                  especially afam hehehehhe🫶</span>
+              </span>
+            </span>
+          </button>
+          <button class="open-card reveal-item" type="button" aria-expanded="false">
+            <span class="open-card-inner">
+              <span class="open-card-face open-card-front">
+                <span class="oc-emoji">🎯</span>
+                <span class="oc-title">Open when you need motivation</span>
+              </span>
+              <span class="open-card-face open-card-back">
+                <span class="oc-note">You are smart, funny, chaotic, and unstoppable. Go get it, WEANNA. I am already so proud of you.Chada jud basta English. 🏆</span>
+              </span>
+            </span>
+          </button>
+        </div>
+
+        <div class="scratch-wrap">
+          <p class="eyebrow">Scratch a note ✨</p>
+          <p class="lead">Use your finger or cursor to scratch the foil away.</p>
+          <div class="scratch-cards">
+            <div class="scratch-card reveal-item">
+              <p class="scratch-note">You're the only person I'd stay on call with until 3am talking about absolutely nothing. 🌙</p>
+              <canvas class="scratch-canvas"></canvas>
+            </div>
+            <div class="scratch-card reveal-item">
+              <p class="scratch-note">Remember: you've survived every bad day so far. 100% success rate. Slaychhhh uychhhh. 💪</p>
+              <canvas class="scratch-canvas"></canvas>
+            </div>
+            <div class="scratch-card reveal-item">
+              <p class="scratch-note">If you ever feel small, remember you're small jud ka kay mas taas mn ko HAHAHAHAHA. 🎬</p>
+              <canvas class="scratch-canvas"></canvas>
+            </div>
+            <div class="scratch-card reveal-item">
+              <p class="scratch-note">Whatever happens, naa rako permi (sa Trinidad) Loyal mn gud kos Trinidad. 🫶</p>
+              <canvas class="scratch-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL -->
+    <section class="content-section final hidden" id="final">
+      <div class="section-inner">
+        <div class="besties-wrap">
+          <svg class="besties final-besties" viewBox="0 0 340 250" role="img" aria-label="Two cartoon besties waving with floating hearts">
+            <defs>
+              <linearGradient id="gradLf" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#b56cff"/>
+                <stop offset="1" stop-color="#5c34b8"/>
+              </linearGradient>
+              <linearGradient id="gradRf" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ff7ab8"/>
+                <stop offset="1" stop-color="#e13a88"/>
+              </linearGradient>
+              <linearGradient id="gradHpf" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ff9de2"/>
+                <stop offset="1" stop-color="#ff4fa3"/>
+              </linearGradient>
+              <linearGradient id="gradHsf" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#d8b8ff"/>
+                <stop offset="1" stop-color="#7048d8"/>
+              </linearGradient>
+            </defs>
+
+            <ellipse class="ground" cx="170" cy="236" rx="136" ry="9"></ellipse>
+
+            <!-- Left bestie -->
+            <g class="bestie bestie-l">
+              <circle cx="90" cy="98" r="38" fill="#241b2e"></circle>
+              <circle cx="88" cy="72" r="15" fill="#241b2e"></circle>
+              <circle cx="90" cy="106" r="32" fill="#ffd9c0"></circle>
+              <ellipse cx="90" cy="84" rx="32" ry="15" fill="#241b2e"></ellipse>
+              <circle cx="79" cy="107" r="3.1" fill="#1d1420"></circle>
+              <circle cx="101" cy="107" r="3.1" fill="#1d1420"></circle>
+              <path d="M84 119 Q90 124 96 119" stroke="#1d1420" stroke-width="2.2" fill="none" stroke-linecap="round"></path>
+              <ellipse cx="72" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+              <ellipse cx="108" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+              <path d="M64 138 L116 138 L121 178 Q90 192 59 178 Z" fill="url(#gradLf)"></path>
+              <rect x="64" y="138" width="52" height="8" rx="4" fill="#c98bff" opacity=".55"></rect>
+              <circle cx="66" cy="142" r="8" fill="#9b5cff"></circle>
+              <g class="arm">
+                <rect x="47" y="126" width="11" height="30" rx="5.5" fill="#ffd9c0"></rect>
+              </g>
+              <circle cx="114" cy="142" r="8" fill="#9b5cff"></circle>
+              <rect x="112" y="138" width="26" height="10" rx="5" fill="#ffd9c0"></rect>
+            </g>
+
+            <!-- Right bestie -->
+            <g class="bestie bestie-r">
+              <circle cx="250" cy="98" r="38" fill="#301f38"></circle>
+              <circle cx="284" cy="84" r="12" fill="#301f38"></circle>
+              <circle cx="250" cy="106" r="32" fill="#ffd9c0"></circle>
+              <ellipse cx="250" cy="84" rx="32" ry="15" fill="#301f38"></ellipse>
+              <circle cx="239" cy="107" r="3.1" fill="#1d1420"></circle>
+              <circle cx="261" cy="107" r="3.1" fill="#1d1420"></circle>
+              <path d="M244 119 Q250 124 256 119" stroke="#1d1420" stroke-width="2.2" fill="none" stroke-linecap="round"></path>
+              <ellipse cx="232" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+              <ellipse cx="268" cy="120" rx="4.5" ry="2.6" fill="#ff9db4" opacity=".65"></ellipse>
+              <path d="M224 138 L276 138 L281 178 Q250 192 219 178 Z" fill="url(#gradRf)"></path>
+              <rect x="224" y="138" width="52" height="8" rx="4" fill="#ff8fc2" opacity=".55"></rect>
+              <circle cx="206" cy="142" r="8" fill="#e13a88"></circle>
+              <rect x="202" y="138" width="26" height="10" rx="5" fill="#ffd9c0"></rect>
+              <circle cx="284" cy="142" r="8" fill="#e13a88"></circle>
+              <g class="arm arm-alt">
+                <rect x="282" y="126" width="11" height="30" rx="5.5" fill="#ffd9c0"></rect>
+              </g>
+            </g>
+
+            <!-- Floating hearts -->
+            <g transform="translate(156 80) scale(1.5)">
+              <g class="hearthold">
+                <path d="M12 21.5 C12 21.5 2 14.2 2 8.3 C2 4.6 4.6 2.5 7.2 2.5 C9.3 2.5 11 3.9 12 5.6 C13 3.9 14.7 2.5 16.8 2.5 C19.4 2.5 22 4.6 22 8.3 C22 14.2 12 21.5 12 21.5 Z" fill="url(#gradHpf)"></path>
+              </g>
+            </g>
+            <g transform="translate(112 110) scale(1.15)">
+              <g class="hearthold hh2">
+                <path d="M12 21.5 C12 21.5 2 14.2 2 8.3 C2 4.6 4.6 2.5 7.2 2.5 C9.3 2.5 11 3.9 12 5.6 C13 3.9 14.7 2.5 16.8 2.5 C19.4 2.5 22 4.6 22 8.3 C22 14.2 12 21.5 12 21.5 Z" fill="url(#gradHsf)"></path>
+              </g>
+            </g>
+            <g transform="translate(216 108) scale(1.15)">
+              <g class="hearthold hh3">
+                <path d="M12 21.5 C12 21.5 2 14.2 2 8.3 C2 4.6 4.6 2.5 7.2 2.5 C9.3 2.5 11 3.9 12 5.6 C13 3.9 14.7 2.5 16.8 2.5 C19.4 2.5 22 4.6 22 8.3 C22 14.2 12 21.5 12 21.5 Z" fill="url(#gradHsf)"></path>
+              </g>
+            </g>
+
+            <!-- Sparkles -->
+            <g transform="translate(58 78)"><path class="twinkle" d="M0 -6 L1.6 -1.6 L6 0 L1.6 1.6 L0 6 L-1.6 1.6 L-6 0 L-1.6 -1.6 Z" fill="#d8b8ff"></path></g>
+            <g transform="translate(172 52)"><path class="twinkle t2" d="M0 -6 L1.6 -1.6 L6 0 L1.6 1.6 L0 6 L-1.6 1.6 L-6 0 L-1.6 -1.6 Z" fill="#ff9de2"></path></g>
+            <g transform="translate(292 74)"><path class="twinkle t3" d="M0 -6 L1.6 -1.6 L6 0 L1.6 1.6 L0 6 L-1.6 1.6 L-6 0 L-1.6 -1.6 Z" fill="#d8b8ff"></path></g>
+          </svg>
+        </div>
+        <p class="eyebrow">One last thing...</p>
+        <h2>I'm really glad<br><span>I met you.</span></h2>
+        <p class="lead">
+          Here's to another year of laughter, memories, random chaos,
+          and moments we'll talk about years from now.
+        </p>
+        <button class="glow-btn" id="confettiBtn">One more surprise ✨</button>
+        <p class="final-message" id="finalMessage">Happy Birthday, Weanna! 🎂🖤</p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="dot-nav" id="dotNav" aria-label="Sections"></nav>
+
+  <button class="music-btn" id="musicBtn" title="Toggle music">♫</button>
+
+  <audio id="bgMusic" loop>
+    <!-- Put your own MP3 in the project and change this filename -->
+    <source src="music/BOTSF.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
